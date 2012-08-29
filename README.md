@@ -4,12 +4,21 @@ FirstAccessibilityService
 Proof of concept to detect notifications on Android using the Accesibility framework.
 
 Idealy:
+<<<<<<< HEAD
   1. Detect android notification of specific types 
 		com.google.android.gm (For gmail)
 		com.google.android.tak (for google talk)
   2. Intercept the remoteview of the notification
   3. Read the email sender
   3. b) Even when you have more than 10 mails waiting..
+=======
+  1) Detect android notification of specific types 
+		com.google.android.gm (For gmail)
+		com.google.android.tak (for google talk)
+  2) Intercept the remoteview of the notification
+  3) Read the email sender
+  3.2) Even when you have more than 10 mails waiting..
+>>>>>>> bd9cdd1e28a76355bc2d4598c36eb3dc7692603a
 
   Used the code published to stackoverflow to read the RemoteViews
   
